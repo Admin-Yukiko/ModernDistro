@@ -238,7 +238,6 @@ function AddExistingTimer(mobile, byref event, byref timer_list, byref num_poiso
 	endif
 
 	timer_list[event.name].endtime := duration+ReadGameClock();
-	UpdateBuffIcon( mobile, elem_info, event );
 
 	return 1;
 endfunction
